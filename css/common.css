@@ -52,13 +52,38 @@ body {
   background-color: var(--background-color1);
 }
 
-.footer .container,
-.header .container {
+.header .container,
+.footer .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header .container {
+  height: 80px;
+}
+
+.header .container,
+.header .page-navigation,
+.header .site-nav,
+.header .contacts-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .page-navigation {
+  column-gap: 94px;
+}
+
+.header .site-nav,
+.header .contacts-nav {
+  column-gap: 50px;
+}
+
+.header .contacts-nav {
+  margin-left: auto;
 }
 
 .footer {

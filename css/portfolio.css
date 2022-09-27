@@ -1,0 +1,35 @@
+.buttons-sort {
+  background-color: var(--background-color2);
+  color: var(--foreground-color1);
+  font-family: inherit;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons-sort:hover,
+.buttons-sort:focus {
+  background-color: var(--hoverfocus-color);
+  color: var(--foreground-color3);
+}
+
+.projects .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .kind {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--foreground-color2);
+}

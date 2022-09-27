@@ -1,0 +1,99 @@
+:root {
+  --background-color1: #ffffff;
+  --background-color2: #f5f4fa;
+  --background-color3: #2f303a;
+  --foreground-color1: #212121;
+  --foreground-color2: #757575;
+  --foreground-color3: #ffffff;
+  --hoverfocus-color: #2196f3;
+}
+
+body {
+  background-color: var(--background-color1);
+  color: var(--foreground-color1);
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.header .logo {
+  color: #000000;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--hoverfocus-color);
+}
+
+/*підвищив специфічність до трьох тегів,
+ бо інакше правило не працює */
+.header .site-nav .current {
+  color: var(--hoverfocus-color);
+}
+
+.site-nav .link {
+  color: var(--foreground-color1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-nav .link {
+  color: var(--foreground-color2);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.header .link:hover,
+.header .link:focus,
+.footer .link-map:hover,
+.footer .link-map:focus,
+.footer .link-contact:hover,
+.footer .link-contact:focus {
+  color: var(--hoverfocus-color);
+}
+
+.footer {
+  background-color: var(--background-color3);
+}
+
+.footer .logo {
+  color: var(--foreground-color3);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .link-map,
+.footer .link-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .link-map {
+  color: var(--foreground-color3);
+}
+
+.footer .link-contact {
+  color: rgb(255, 255, 255, 0.6);
+}

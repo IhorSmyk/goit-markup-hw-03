@@ -86,10 +86,6 @@ body {
   margin-left: auto;
 }
 
-.footer {
-  background-color: var(--background-color3);
-}
-
 .header .logo {
   color: #000000;
 
@@ -99,6 +95,24 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.footer {
+  background-color: var(--background-color3);
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  height: 252px;
+}
+
+.footer .container {
+  padding-top: 60px;
+}
+
+.footer .list {
+  padding-top: 20px;
+  display: grid;
+  row-gap: 9px;
 }
 
 .logo-web {

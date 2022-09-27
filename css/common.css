@@ -52,6 +52,13 @@ body {
   background-color: var(--background-color1);
 }
 
+.footer .container,
+.header .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
   background-color: var(--background-color3);
 }
@@ -134,10 +141,4 @@ body {
 
 .footer .link-contact {
   color: rgb(255, 255, 255, 0.6);
-}
-
-.header .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }

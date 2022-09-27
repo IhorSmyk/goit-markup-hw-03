@@ -10,6 +10,10 @@
 
 .hero {
   background-color: var(--background-color3);
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero .container {
@@ -23,6 +27,20 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  width: 890px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 200px;
+}
+
+.hero-title {
+  /* width: 700px;
+  height: 120px; */
+  /* padding-top: 200px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -38,6 +56,21 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  width: 216px;
+  height: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+.features .container,
+.about-job .container,
+.our-team .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-title {

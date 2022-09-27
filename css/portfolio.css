@@ -1,3 +1,14 @@
+.projects .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .buttons-sort {
   background-color: var(--background-color2);
   color: var(--foreground-color1);

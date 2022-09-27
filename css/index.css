@@ -101,10 +101,6 @@ body {
 }
 
 .features .list {
-  /* align-items: center; */
-}
-
-.features .list {
   display: flex;
   justify-content: space-between;
   margin-top: 94px;

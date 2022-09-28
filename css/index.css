@@ -100,7 +100,8 @@
 .features .list {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
+  column-gap: 30px;
+  padding-top: 94px;    /*????????*/
 }
 
 .about-job .title,

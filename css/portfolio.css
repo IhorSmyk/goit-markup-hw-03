@@ -30,6 +30,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+  min-width: 74px;
   padding: 6px 22px;
   border-radius: 4px;
 }

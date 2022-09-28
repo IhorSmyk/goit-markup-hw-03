@@ -119,11 +119,13 @@ body {
 
 .footer .container {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .list {
   padding-top: 20px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   row-gap: 9px;
 }
 

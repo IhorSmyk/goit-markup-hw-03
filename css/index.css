@@ -128,7 +128,17 @@
 }
 
 .our-team .title {
-  
+  padding-bottom: 50px;
+}
+
+.our-team .list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.our-team .item {
+  flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .our-team .name {
@@ -137,6 +147,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 30px;
 }
 
 .our-team .position {
@@ -146,4 +157,11 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.our-team .wrapper {
+  background-color: var(--background-color1);
+  border-radius: 0px 0px 4px 4px;
 }

@@ -5,7 +5,7 @@
   --foreground-color1: #212121;
   --foreground-color2: #757575;
   --foreground-color3: #ffffff;
-  --button: #188CE8;
+  --button: #188ce8;
   --hoverfocus-color: #2196f3;
 }
 
@@ -47,7 +47,17 @@ body {
   background-color: var(--background-color1);
   color: var(--foreground-color1);
   font-family: Roboto, sans-serif;
+}
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,16 +66,7 @@ body {
   background-color: var(--background-color1);
 }
 
-.header .container,
-.footer .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.header .container,
+.page-header,
 .header .page-navigation,
 .header .site-nav,
 .header .contacts-nav {
@@ -113,11 +114,6 @@ body {
 
 .footer {
   background-color: var(--background-color3);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }

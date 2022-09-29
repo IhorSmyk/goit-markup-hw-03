@@ -4,18 +4,17 @@
   background-color: var(--background-color1);
 }
 
-.our-team {
-  background-color: var(--background-color2);
-}
-
 .hero {
   background-color: var(--background-color3);
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.hero .container {
+.hero-title {
   color: var(--foreground-color3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 
   font-style: normal;
   font-weight: 900;
@@ -26,18 +25,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  width: 890px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.hero-title {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  width: 650px;
 }
 
 .hero-button {
@@ -67,15 +55,8 @@
   background-color: var(--hoverfocus-color);
 }
 
-.features .container,
-.about-job .container,
-.our-team .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 94px;
+.our-team {
+  background-color: var(--background-color2);
 }
 
 .features-title {
@@ -99,9 +80,15 @@
 
 .features .list {
   display: flex;
-  justify-content: space-between;
   column-gap: 30px;
-  padding-top: 94px;    /*????????*/
+}
+
+.features {
+  padding-bottom: 47px;
+}
+
+.about-job {
+  padding-top: 47px;
 }
 
 .about-job .title,
@@ -122,14 +109,6 @@
 
 .about-job .item {
   flex-basis: calc((100% - 2 * 30px) / 3);
-}
-
-.our-team .container {
-  padding-top: 94px;
-}
-
-.our-team .title {
-  padding-bottom: 50px;
 }
 
 .our-team .list {
